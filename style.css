@@ -1,0 +1,313 @@
+
+body{
+  background-color: black;
+  
+}
+header{
+  margin: 10px  100px ;
+}
+.display-flex{
+  display: flex;
+}
+.nav-bar{
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-name{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.nav-items{
+  border-radius: 50px;
+  list-style: none;
+  margin-right: 30px;
+}
+
+
+.button-items{
+  border-radius: 50px;
+  list-style: none;
+  margin-right: 50px;
+  border: 1px solid white ;
+  padding: 20px 20px;
+}
+.button-items:hover{
+  justify-content: center;
+  text-align: center;
+  padding-inline-start: 2% ;
+  padding-inline-end: 2%;
+  border-radius: 50px;
+  background-color: red;
+  padding: 20px 20px;
+}
+.nav-items:hover{
+  justify-content: center;
+  text-align: center;
+  padding-inline-start: 2% ;
+  padding-inline-end: 2%;
+  border-radius: 50px;
+  background-color: red;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.border{
+  border: 1px solid grey ;
+  background-color: none;
+  border-radius: 50px;
+}
+.text-red{
+  color: red;
+}
+.text-gray{
+  color: grey;
+}
+.text-white{
+  color:white;
+}
+.nav-bar{
+  color: white;
+  border-radius: 5px;
+}
+.banner-1{
+  background-image: linear-gradient(black, rgb(85, 80, 80), black);
+  display: flex;
+  gap:300px;
+  padding: 100px 100px;
+}
+.bg-1{
+  background-image: url('Images 2.png');
+  background-repeat: no-repeat;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+}
+.tr-1{
+  width: 250px;
+  height:250px;
+  border: 1px hidden gray;
+  background-image: url('trainer1.png') ; 
+  background-size: 250px 250px;
+  border-radius:  10px ;
+  background-repeat: no-repeat; 
+  
+}
+.tr-2{
+  width: 250px;
+  height:250px;
+  border: 1px hidden gray;
+  background-image: url('trainer2.png') ; 
+  background-size: 250px 250px;
+  border-radius: 10px;
+  background-repeat: no-repeat; 
+}
+.tr-3{
+  width: 250px;
+  height:250px;
+  border: 1px hidden gray;
+  background-image: url('trainer3.png') ; 
+  background-size: 250px 250px;
+  border-radius: 10px;
+  background-repeat: no-repeat; 
+}
+.tr-4{
+  width: 250px;
+  height:250px;
+  border: 1px hidden gray;
+  background-position: cover;
+  background-image: url('trainer4.png') ; 
+  background-size: 250px 250px;
+  border-radius: 10px ;
+  background-repeat: no-repeat; 
+  
+}
+.tr-5{
+  width: 250px;
+  height:250px;
+  border: 1px hidden gray;
+  background-image: url('trainer5.png') ; 
+  background-size: 250px 250px;
+  border-radius: 10px ;
+  background-repeat: no-repeat; 
+}
+.tr-6{
+  width: 250px;
+  height:250px;
+  border: 1px hidden gray;
+  background-image: url('trainer6.png') ; 
+  background-size: 250px 250px;
+  border-radius: 10px ;
+  background-repeat: no-repeat; 
+}
+.tr-text{
+  margin-top: 180px;
+}
+.banner-2{
+  padding: 100px 100px;
+}
+.bg-2{
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.bg2-pic{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.pic-1,.pic-2,.pic-3,.pic-4{
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+.img-1,.img-2,.img-3,.img-4{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1{
+  background-color: rgb(95, 82, 82);
+  opacity: 0.9;
+  border: 2px solid gray;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0%;
+  box-shadow: inset;
+  max-width: 180px;
+  max-height: 150px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.card1-text{
+  color: white;
+  font-size: 40px;
+}
+.card2{
+  display: flex;
+  background-color: rgb(95, 82, 82);
+  opacity: 0.9;
+  border: 2px solid gray;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0%;
+  box-shadow: inset;
+  max-width: 190px;
+  max-height: 110px;
+  margin-top: 250px;
+  
+}
+.card2-text{
+  color: white;
+  font-size: 30px;
+}
+.banner-title{
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+}
+.banner-description{
+  color:gray;
+  font-size: 20px;
+}
+
+.banner-3{
+  display:flex;
+  flex-direction: row;
+  gap: 40px;
+  border-radius: 10px ;
+  background-color:  rgb(66, 59, 59);
+  padding: 100px 100px 100px 100px;
+    
+}
+.banner-4{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  border-radius: 10px ;
+  background-color:  rgb(66, 59, 59);
+  padding: 100px 100px 100px 100px;
+}
+.button2-items{
+  border-radius: 10px;
+  padding: 20px 20px;
+  background-color: rgb(231, 14, 14);
+  color: white;
+}
+.ban-3{
+  padding: 100px 100px;
+}
+.box-3{
+  border-radius: 10px;
+}
+.bb{
+  font-size: 40px;
+}
+footer{
+  background-color: rgb(66, 59, 59);
+  padding:100px;
+  display: block;
+  
+}
+.F{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+.foot-A1{
+  color:red;
+  font-size: 40px;
+  font-weight: bold;
+ 
+}
+.foot-A2{
+  color: grey;
+  font-size: 15px;
+
+}
+.foot-B1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.horizontal_line {
+  background-color: gray;
+  width: 95%;
+  height: 3px;
+  line-height: 80%;
+}
+.icon{
+ display:none;
+}
+@media screen and (max-width: 576px) {
+  footer,
+  .F,
+  .banner-1,
+  .bg2-pic,
+  .banner-3,
+  .banner-4{
+    display: flex;
+    flex-direction: column;
+  }
+  .border{
+    display:none;
+  }
+  .box-3,.tr-1,.tr-2,.tr-3,.tr-4,.tr-5,.tr-6{
+    width: 100%;
+  }
+  .icon{
+    width:35px;
+    height:2px;
+    background-color: white;
+    margin: 6px auto;
+    cursor: pointer;
+    display:block;
+  }
+  
+  
+}
